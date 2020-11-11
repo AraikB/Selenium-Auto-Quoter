@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre-8.0.252.09-hotspot"/>
+	<classpathentry kind="lib" path="C:/Users/Disco Ric/Desktop/Programming/JavaSel/commons-collections4-4.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Disco Ric/Desktop/Programming/JavaSel/commons-collections4-4.4-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Disco Ric/Desktop/Programming/JavaSel/commons-collections4-4.4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Disco Ric/Desktop/Programming/JavaSel/commons-collections4-4.4-tests.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Disco Ric/Desktop/Programming/JavaSel/commons-collections4-4.4-test-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Disco Ric/Desktop/Programming/JavaSel/byte-buddy-1.8.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Disco Ric/Desktop/Programming/JavaSel/client-combined-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Disco Ric/Desktop/Programming/JavaSel/client-combined-3.141.59-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Disco Ric/Desktop/Programming/JavaSel/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Disco Ric/Desktop/Programming/JavaSel/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Disco Ric/Desktop/Programming/JavaSel/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Disco Ric/Desktop/Programming/JavaSel/junit-4.13.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Disco Ric/Desktop/Programming/JavaSel/okhttp-3.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Disco Ric/Desktop/Programming/JavaSel/okio-1.14.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Disco Ric/Desktop/Programming/JavaSel/opencsv-5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Disco Ric/Desktop/Programming/JavaSel/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
