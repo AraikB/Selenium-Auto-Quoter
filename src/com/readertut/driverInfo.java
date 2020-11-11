@@ -4,18 +4,18 @@ public class driverInfo {
 	private String date;
 	private String firstName;
 	private String lastName;
-	public String mailingAddress;
-	public String zipCode;
-	public String phoneNumber;
-	public String emailAddress;
-	public String residenceType;
-	public String insuredMerc;
-	public String dateOfBirth;
-	public String dateFirstLicensed;
-	public String gender;
-	public String maritalStatus;
-	public String licenseNumber;
-	public String relationtoInsured; 
+	private String mailingAddress;
+	private String zipCode;
+	private String phoneNumber;
+	private String emailAddress;
+	private String residenceType;
+	private String insuredMerc;
+	private String dateOfBirth;
+	private String dateFirstLicensed;
+	private String gender;
+	private String maritalStatus;
+	private String licenseNumber;
+	private String relationtoInsured; 
 
 	public String getDate() {
 		return date;
