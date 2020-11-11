@@ -26,18 +26,12 @@ public class mainPage {
 		wait = new WebDriverWait(driver, 10);
 	}
 
-	//@FindBy(xpath = "//*[@id=\"Accordion1\"]/div[4]/div[1]")
-	//private WebElement mercuryToolsButton;
 	@FindBy(xpath = "//input[@id='firstName']")
 	private WebElement firstNames;
 
 	@FindBy(xpath = "(//span[contains(.,'Start')])[1]")	
 	private WebElement startButton;
 
-	//public void clickmercuryToolsButton() {
-	//mercuryToolsButton.click();
-
-	//}
 	public void typeFirstNameField(String text) {
 		firstNames.sendKeys(text);
 	}
@@ -47,10 +41,6 @@ public class mainPage {
 	public void mercToolWait(WebDriver driver) {
 		new WebDriverWait(driver, 60).until(ExpectedConditions.elementToBeClickable(startButton));
 	}
-	//	public void selectDMS() {
-	//	Select selectByVisibleText = new Select (driver.findElement(By.id("mercToolsSelect")));
-	//   selectByVisibleText.selectByVisibleText("DMS");
-	//}
 	private static Object firstHandle;
 	private static Object secondHandle;
 	private static Object lastHandle;

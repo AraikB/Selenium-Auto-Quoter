@@ -60,46 +60,30 @@ public class mainTest {
 	public void letsStart()  throws Throwable {
 		//go to site 
 		driver.get("https://www.mercuryfirst.com");
-		//create an object loginpage on this page using class loginPage
+		
+		//Login Page Actions
 		loginPage loginpage = new loginPage(driver);
 		//implement wait until clickable code for username field  
 		loginpage.loginWait(driver);		
-		//set username
-		//		loginpage.setUsernameField(driverinfo.getFirstName());
 		loginpage.setUsernameField("________");
-		// set pass 
 		loginpage.setPasswordField("________");
-		// click login
 		loginpage.clickLogin();
-
-		//create new mainpage object
+		
+		//Main Page Actions
 		mainPage main = new mainPage(driver);
 		//use the wait for the button to be visible
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		//click the button
-		//main.clickmercuryToolsButton();
-		//Select the DMS finding it by Index 
-		//main.selectDMS();
-		//click the go button
-		//String hello = driver.getWindowHandle();
-		//System.out.print(hello + "\n");
 		main.startButtonClick();
-
-		//wait 10 sec
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		//GO to new tab
+		
+		//Switch to new popup window and navigate quote page
 		quotePage quotepage = new quotePage(driver);
 		main.switchToNewWindow();
-
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		quotepage.typeFirstNameField(driverinfo.getFirstName());
 		quotepage.typeLastName(driverinfo.getLastName());
 		quotepage.typeAddressLine(driverinfo.getMailingAddress());
 		quotepage.typeZip(driverinfo.getZipCode());
-		//String hello2 = driver.getWindowHandle();
-		//System.out.print(hello2 + "\n");
-		//create new object to pull dmsPage
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); 
-	}// Now iterate using Iterator
-
+	}
 }
